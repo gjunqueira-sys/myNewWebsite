@@ -6,7 +6,7 @@ rss = "A short description of the page which would serve as **blurb** in a `RSS`
 +++
 @def tags = ["syntax", "code"]
 
-# Working with code blocks
+# Professional Experience
 
 \toc
 
@@ -21,7 +21,7 @@ Dematic is a leading supplier of integrated automated technology, software and s
 @@
 
 
-## **_Engineering Manager / PLC Program Manager_**
+## **_Engineering Manager / Program Manager_**
 * [Hoerbiger Engine Solutions](https://www.hoerbiger.com/)
 * _June 2013 - February 2019_
 * Dallas / Fort Worth, Tx
@@ -53,6 +53,17 @@ __Summary of Activities:__
 * _August 2011 - May 2013_
 * Dallas / Fort Worth, Tx
 
+Quickly established reputation as Top Technical Lead and "Go-to-Guy" for company's most challenging projects. Provided strategic support, working
+cohesively with high-value customers. Startegically shaped comnpany's brand, assigned to high-visibility, revenue-optimizing Data Center /HVAC Projects.
+Earned reputation as an accomplished leader with wide-ranging experience who is sought out to take ownership of the most complex and specialized projects.
+Performance lauded by top management and customers alike.
+
+
+@@colbox-blue
+Gil, I know we have spoken about this before, but I wanted to let you know how much the team recognizes your outstanding effort on the 
+DA3 Dallas Equinix Project. We appreciate your dedication to the job and understand that it would not be as well off as it is today without your 
+willingness to step up and take on the challenge. Thanks again Gil!. 
+@@ __Business Manager, GGS__
 
 ## **_Project Engineer_**
 * Prime Controls
