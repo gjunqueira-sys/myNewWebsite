@@ -10,74 +10,59 @@ rss = "A short description of the page which would serve as **blurb** in a `RSS`
 
 \toc
 
-## Live evaluation of code blocks
 
-If you would like to show code as well as what the code outputs, you only need to specify where the script corresponding to the code block will be saved.
+## **_Southwest Operations  Engineering Manager_**
+* [Dematic](https://www.dematic.com/)
+* _February 2019 - Present_
+* Plano, Tx
 
-Indeed, what happens is that the code block gets saved as a script which then gets executed.
-This also allows for that block to not be re-executed every time you change something _else_ on the page.
-
-Here's a simple example (change values in `a` to see the results being live updated):
-
-```julia:./exdot.jl
-using LinearAlgebra
-a = [1, 2, 3, 3, 4, 5, 2, 2]
-@show dot(a, a)
-println(dot(a, a))
-```
-
-You can now show what this would look like:
-
-\output{./exdot.jl}
-
-**Notes**:
-* you don't have to specify the `.jl` (see below),
-* you do need to explicitly use print statements or `@show` for things to show, so just leaving a variable at the end like you would in the REPL will show nothing,
-* only Julia code blocks are supported at the moment, there may be a support for scripting languages like `R` or `python` in the future,
-* the way you specify the path is important; see [the docs](https://tlienart.github.io/franklindocs/code/index.html#more_on_paths) for more info. If you don't care about how things are structured in your `/assets/` folder, just use `./scriptname.jl`. If you want things to be grouped, use `./group/scriptname.jl`. For more involved uses, see the docs.
-
-Lastly, it's important to realise that if you don't change the content of the code, then that code will only be executed _once_ even if you make multiple changes to the text around it.
-
-Here's another example,
-
-```julia:./code/ex2
-for i ∈ 1:5, j ∈ 1:5
-    print(" ", rpad("*"^i,5), lpad("*"^(6-i),5), j==5 ? "\n" : " "^4)
-end
-```
-
-which gives the (utterly useless):
-
-\output{./code/ex2}
-
-note the absence of `.jl`, it's inferred.
-
-You can also hide lines (that will be executed nonetheless):
-
-```julia:./code/ex3
-using Random
-Random.seed!(1) # hide
-@show randn(2)
-```
-
-\output{./code/ex3}
+@@colbox-blue
+Dematic is a leading supplier of integrated automated technology, software and services to optimize the supply chain.
+@@
 
 
-## Including scripts
+## **_Engineering Manager / PLC Program Manager_**
+* [Hoerbiger Engine Solutions](https://www.hoerbiger.com/)
+* _June 2013 - February 2019_
+* Dallas / Fort Worth, Tx
 
-Another approach is to include the content of a script that has already been executed.
-This can be an alternative to the description above if you'd like to only run the code once because it's particularly slow or because it's not Julia code.
-For this you can use the `\input` command specifying which language it should be tagged as:
+Provide oversight and daily direction for all engineering personnel. Identify and develop PLC-specific Oil & Gas product opportunities. Develop and maintain the core PLC competency at, inclusive of programming and application architecture. Oversee and take responsibility for PLC product validation and commercialization. Develop relationships with key customer and vendor resources.  
+
+__Summary of Activities:__
 
 
-\input{julia}{/_assets/scripts/script1.jl} <!--_-->
+- Execute effective leadership and oversight, providing career guidance to subordinates and assigned personnel.
+
+- Interact with the North American / International Regional Managers to explore and leverage all opportunities within the PLC Panel Initiative. 
+
+- Align with Engineering, Sales, and Operations Management, providing guidance and support. 
+
+- Coordinate with key industry partners and suppliers to drive Innovation and Development—specific to the PLC Business Segment.
+
+- Escalate improvements in Engineering resource allocation, drawings, shop and Engineering relations. 
+
+- Provide timely reviews and orchestrate ongoing training and development initiatives.
+
+- Meet and surpass all KPI’s as defined in annual budget planning.
+
+- As a multidisciplinary engineer, provide exemplary, defined leadership and directed backup when needed.
 
 
-these scripts can be run in such a way that their output is also saved to file, see `scripts/generate_results.jl` for instance, and you can then also input the results:
+## **_Technical Lead / Senior Engineer_**
+* Glenmount Global Solutions
+* _August 2011 - May 2013_
+* Dallas / Fort Worth, Tx
 
-\output{/_assets/scripts/script1.jl} <!--_-->
 
-which is convenient if you're presenting code.
+## **_Project Engineer_**
+* Prime Controls
+* _December 2009 - August 2011_
+* Dallas / Fort Worth, Tx
+
+## **_Senior Electrical Engineer_**
+* Precision Machine Controls
+* _September 2006 - November 2009_
+*  Ohio, United States
 
 **Note**: paths specification matters, see [the docs](https://tlienart.github.io/franklindocs/code/index.html#more_on_paths) for details.
 
