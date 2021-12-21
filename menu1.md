@@ -60,10 +60,10 @@ Performance lauded by top management and customers alike.
 
 
 @@colbox-blue
-Gil, I know we have spoken about this before, but I wanted to let you know how much the team recognizes your outstanding effort on the 
+"Gil, I know we have spoken about this before, but I wanted to let you know how much the team recognizes your outstanding effort on the 
 DA3 Dallas Equinix Project. We appreciate your dedication to the job and understand that it would not be as well off as it is today without your 
-willingness to step up and take on the challenge. Thanks again Gil!. 
-@@ __Business Manager, GGS__
+willingness to step up and take on the challenge. Thanks again Gil!". 
+@@ __~Business Manager, GGS__
 
 ## **_Project Engineer_**
 * Prime Controls
